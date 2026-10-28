@@ -1,0 +1,5 @@
+Indicator,Isolates,Total,Percent,CI low,CI high
+ESBL/AmpC genes,8046,9761,82.43,81.66,83.17
+Carbapenemase genes,1666,9761,17.07,16.33,17.83
+Colistin resistance,71,9761,0.73,0.58,0.92
+MDR genotype (3+ classes),8370,9761,85.75,85.04,86.43

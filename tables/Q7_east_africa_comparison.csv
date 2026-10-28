@@ -1,0 +1,22 @@
+country,indicator,n,pct,low,high
+Malawi,ESBL/AmpC,1975,99.3,98.9,99.6
+Malawi,Carbapenemase,1975,0.4,0.2,0.7
+Malawi,MDR genotype,1975,97.6,96.8,98.2
+Kenya,ESBL/AmpC,1282,91.0,89.3,92.4
+Kenya,Carbapenemase,1282,8.1,6.7,9.7
+Kenya,MDR genotype,1282,93.4,92.0,94.7
+Tanzania,ESBL/AmpC,555,80.5,77.0,83.6
+Tanzania,Carbapenemase,555,1.6,0.9,3.1
+Tanzania,MDR genotype,555,92.1,89.5,94.0
+Ethiopia,ESBL/AmpC,474,95.6,93.3,97.1
+Ethiopia,Carbapenemase,474,4.4,2.9,6.7
+Ethiopia,MDR genotype,474,96.2,94.1,97.6
+Uganda,ESBL/AmpC,359,72.1,67.3,76.5
+Uganda,Carbapenemase,359,3.3,1.9,5.8
+Uganda,MDR genotype,359,85.8,81.8,89.0
+Zambia,ESBL/AmpC,244,97.1,94.2,98.6
+Zambia,Carbapenemase,244,10.2,7.0,14.7
+Zambia,MDR genotype,244,98.0,95.3,99.1
+Madagascar,ESBL/AmpC,232,26.7,21.4,32.8
+Madagascar,Carbapenemase,232,0.0,0.0,1.6
+Madagascar,MDR genotype,232,47.0,40.7,53.4
