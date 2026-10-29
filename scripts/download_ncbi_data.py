@@ -1,5 +1,6 @@
 import csv
 import re
+import sys
 import urllib.request
 from pathlib import Path
 
@@ -8,7 +9,8 @@ from pathlib import Path
 BASE = "https://ftp.ncbi.nlm.nih.gov/pathogen"
 AMR_DIR = f"{BASE}/Results/Klebsiella/latest_snps/AMR/"
 CATALOG_URL = f"{BASE}/Antimicrobial_resistance/AMRFinderPlus/database/latest/ReferenceGeneCatalog.txt"
-RAW_DIR = Path(__file__).resolve().parent.parent / "data" / "raw"
+BASE_DIR = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).resolve().parent.parent
+RAW_DIR = BASE_DIR / "data" / "raw"
 
 SSA_COUNTRIES = [
     "Angola", "Benin", "Botswana", "Burkina Faso", "Burundi", "Cabo Verde", "Cameroon",

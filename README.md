@@ -22,6 +22,12 @@ python3 -m venv venv
 ./venv/bin/jupyter nbconvert --to notebook --execute --inplace klebsiella_amr_descriptive_diagnostic.ipynb
 ```
 
-The notebook reads from `data/` using relative paths, so run it from the project root. On Google Colab, upload the project folder and `cd` into it first.
+On Google Colab the notebook mounts Google Drive and uses `MyDrive/data-visualization/` as its base folder. Put the two raw files in `MyDrive/data-visualization/data/raw/`; the processed data, figures and tables are written to `data/processed/`, `figures/` and `tables/` in that folder. To download the raw data straight to Drive from Colab:
+
+```python
+!python download_ncbi_data.py /content/drive/MyDrive/data-visualization
+```
+
+Run locally, the notebook uses the project folder instead, so run it from the project root.
 
 Data downloaded 28 October 2026 (NCBI file `PDG000000012.2563`, gene catalog `2026-08-07.1`).
