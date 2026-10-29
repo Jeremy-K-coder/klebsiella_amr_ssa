@@ -6,7 +6,7 @@ Data visualization project: descriptive and diagnostic analysis of open genomic 
 
 | Path | Contents |
 |---|---|
-| `klebsiella_amr_descriptive_diagnostic.ipynb` | Main notebook: data preparation, 3 descriptive and 4 diagnostic questions, observations |
+| `klebsiella_amr_descriptive_diagnostic.ipynb` | Main notebook: exploratory data analysis, 3 descriptive and 4 diagnostic questions, observations |
 | `scripts/download_ncbi_data.py` | Downloads the latest NCBI *Klebsiella* AMR table (sub-Saharan Africa only) and the AMRFinderPlus gene catalog |
 | `data/raw/` | Downloaded data (`klebsiella_ssa_ncbi.tsv`, `ReferenceGeneCatalog.txt`); not tracked in git, kept on Google Drive or recreated with the download script |
 | `data/processed/` | Analysis-ready isolate table produced by the notebook |
