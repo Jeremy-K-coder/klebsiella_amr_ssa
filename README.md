@@ -11,7 +11,7 @@ Data visualization project: descriptive and diagnostic analysis of open genomic 
 | `data/raw/` | Downloaded data (`klebsiella_ssa_ncbi.tsv`, `ReferenceGeneCatalog.txt`); not tracked in git, kept on Google Drive or recreated with the download script |
 | `data/processed/` | Analysis-ready isolate table produced by the notebook |
 | `figures/`, `tables/` | Exported charts and summary tables |
-| `docs/project_writeup.md` / `.docx` | Project definition write-up |
+| `docs/project_writeup.md` | Project definition write-up |
 
 ## Running
 
