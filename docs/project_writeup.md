@@ -34,7 +34,7 @@ The operational gap is twofold:
 
 # 3. Main descriptive variables
 
-- **Geographic origin:** country and African region (East, Southern, West and Central Africa).
+- **Geographic origin:** country and African Union region (Eastern, Southern, Western and Central Africa), as used by Africa CDC.
 - **Collection year:** to observe trends over time.
 - **Isolation source:** specimen group (blood, urine, gut carriage, wound/skin/pus, respiratory, other clinical, animal/environment).
 - **Antibiotic class affected:** for example cephalosporins, carbapenems, aminoglycosides, quinolones and sulfonamides, assigned from NCBI's Reference Gene Catalog.
@@ -87,7 +87,7 @@ The useful output is an **interactive AMR genomic surveillance dashboard** for e
 - filters for country, region, specimen type and collection year;
 - a heatmap of antibiotic classes affected by country, and a breakdown of carbapenemase families;
 - trend charts shown per country, not pooled, with each country's sample size, so that sampling artefacts are visible;
-- a country profile, for example Uganda against its East African neighbours.
+- a country profile, for example Uganda against its Eastern African neighbours.
 
 # 7. Analytics type
 
