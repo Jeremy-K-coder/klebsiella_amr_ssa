@@ -45,7 +45,7 @@ The operational gap is twofold:
 
 **NCBI Pathogen Detection**, *Klebsiella* AMR metadata table (<https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Klebsiella/latest_snps/AMR/>). It is downloaded and filtered to sub-Saharan Africa with `scripts/download_ncbi_data.py`. Resistance genes are mapped to antibiotic classes using the **AMRFinderPlus Reference Gene Catalog** (Feldgarden et al., 2021).
 
-The data downloaded on 28 October 2026 contain 10,441 sub-Saharan *Klebsiella* isolates, of which 9,761 are *K. pneumoniae*, from 25 countries, 77% of them collected in 2015 or later.
+The data downloaded on 28 October 2026 contain 10,441 sub-Saharan *Klebsiella* isolates, of which 9,761 are *K. pneumoniae*, from 25 countries. Of the isolates with a recorded collection year, 97% were collected in 2015 or later.
 
 | Variable | Field name(s) in dataset | Role |
 |---|---|---|
